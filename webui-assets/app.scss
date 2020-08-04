@@ -56,6 +56,42 @@ $super-light-grey: $gray-100;
 @import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-user";
 
 
+html {
+ font-size:16px
+}
+
 .logo {
-  display: none !important;
+  display: none !important; }
+
+.navbar .container {
+  max-width: inherit;
+  width: 100%;
+  padding: 0;
+}
+.navbar .navbar-header {
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .navbar .navbar-header {
+    flex-flow: row-reverse;
+  }
+}
+
+:not(nav) .container {
+  padding-top: 1rem;
+  flex: 1 1 auto !important;
+}
+
+footer .container {
+  padding-top: 0;
+}
+
+nav {
+  background-color: transparent;
+}
+
+.navbar .navbar-form {
+  margin: 0 !important;
 }
