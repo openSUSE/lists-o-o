@@ -1,2 +1,2 @@
 sass.d:
-	sass webui-assets/app.scss webui-assets/app.css
+	sassc webui-assets/app.scss webui-assets/app.css
