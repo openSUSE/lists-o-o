@@ -37,9 +37,6 @@ $super-light-grey: $gray-100;
 // core elements, shared across pages
 @import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-common";
 
-// base.html
-@import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-base";
-
 // index.html
 @import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-index";
 
@@ -54,11 +51,6 @@ $super-light-grey: $gray-100;
 
 // user_profile.html
 @import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-user";
-
-
-html {
- font-size:16px
-}
 
 .logo {
   display: none !important; }
@@ -95,4 +87,72 @@ nav {
 
 .navbar .navbar-form, .navbar .navbar-form .btn {
   margin: 0 !important;
+}
+
+
+.all-lists nav.sort-mode {
+  background-color: transparent;
+}
+
+.all-lists nav.sort-mode a {
+  color: inherit;
+}
+
+@media (prefers-color-scheme: dark) {
+  .navbar {
+    background: #343a40!important;
+  }
+  .navbar .navbar-brand {
+    color: #ffffff;
+  }
+  .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+    color: #ffffff;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .navbar .navbar-nav .nav-link:hover, .navbar .navbar-nav .nav-link:focus {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .navbar .navbar-nav .nav-link.disabled {
+    color: rgba(255, 255, 255, 0.25);
+  }
+  .navbar .navbar-nav .show > .nav-link,
+  .navbar .navbar-nav .active > .nav-link,
+  .navbar .navbar-nav .nav-link.show,
+  .navbar .navbar-nav .nav-link.active {
+    color: #ffffff;
+  }
+  .navbar .navbar-toggler {
+    color: rgba(255, 255, 255, 0.5);
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  .navbar .navbar-text {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .navbar .navbar-text a {
+    color: #ffffff;
+  }
+  .navbar .navbar-text a:hover, .navbar .navbar-text a:focus {
+    color: #ffffff;
+  }
+  .navbar .btn-secondary {
+    background-color: #212529;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  .navbar .btn-secondary:hover, .navbar .btn-secondary:focus {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .all-lists table.lists tr td {
+    border-color: #495057!important;
+  }
+  .all-lists table.lists tr.list {
+  background-color: #212529; }
+  .all-lists table.lists tr.list .list-name {
+    color: #fff; }
+  .all-lists table.lists tr.list ul.list-stats .fa {
+    color: #fff; }
+  .all-lists table.lists tr.list .list-tags {
+    color: white;
+  }
 }
