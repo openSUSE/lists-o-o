@@ -1,0 +1,61 @@
+// Customized Bootstrap
+@import "chameleon/src/sass/variables";
+@import "bootstrap/scss/bootstrap";
+
+@import "chameleon/src/sass/animate";
+@import "chameleon/src/sass/alert";
+@import "chameleon/src/sass/button-input-fonts";
+@import "chameleon/src/sass/card";
+@import "chameleon/src/sass/icon";
+@import "chameleon/src/sass/selection-color";
+@import "chameleon/src/sass/carousel";
+@import "chameleon/src/sass/code";
+@import "chameleon/src/sass/navbar";
+@import "chameleon/src/sass/footer";
+@import "chameleon/src/sass/table";
+
+// Additional styles, not from Bootstrap
+@import "chameleon/src/sass/body";
+@import "chameleon/src/sass/megamenu";
+
+// Dark mode
+@import "chameleon/src/sass/dark-mode/index";
+
+$headingColor: $gray-600;
+$subheadingColor: $gray-800;
+$rowBorderColor: $gray-500;
+$rowSideGutter: 0.5em;
+$rowHoverColor: $link-color;
+$navbarColor: $light;
+$linkHoverColor: darken($link-color, 0.5);
+$linkColor: $link-color;
+$maroon: $red;
+$grey: $gray-500;
+$super-light-grey: $gray-100;
+
+
+// core elements, shared across pages
+@import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-common";
+
+// base.html
+@import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-base";
+
+// index.html
+@import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-index";
+
+// thread-related (monthly view, overview's discussion groups)
+@import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-threadslist";
+
+// overview.html
+@import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-overview";
+
+// thread.html (discussion view)
+@import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-message";
+
+// user_profile.html
+@import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-user";
+
+
+.logo {
+  display: none !important;
+}

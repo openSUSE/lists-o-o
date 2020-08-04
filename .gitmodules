@@ -1,0 +1,11 @@
+[submodule "webui-assets/chameleon"]
+	path = webui-assets/chameleon
+	url = https://github.com/openSUSE/chameleon.git
+	branch = rel-3.0
+[submodule "webui-assets/bootstrap"]
+	path = webui-assets/bootstrap
+	url = https://github.com/twbs/bootstrap.git
+	branch = v4-dev
+[submodule "webui-assets/hyperkitty"]
+	path = webui-assets/hyperkitty
+	url = https://gitlab.com/mailman/hyperkitty.git
