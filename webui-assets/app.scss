@@ -52,6 +52,10 @@ $super-light-grey: $gray-100;
 // user_profile.html
 @import "hyperkitty/hyperkitty/static/hyperkitty/sass/hyperkitty-user";
 
+html {
+  font-size: 16px;
+}
+
 .logo {
   display: none !important; }
 
