@@ -151,7 +151,11 @@ nav {
     border-color: #495057!important;
   }
   .all-lists table.lists tr.list {
-  background-color: #212529; }
+    background-color: #212529; }
+  .all-lists table.lists tr.list.private {
+    background-color: #253340; }
+  .all-lists table.lists tr.list.inactive {
+    background-color: #3c4246; }
   .all-lists table.lists tr.list .list-name {
     color: #fff; }
   .all-lists table.lists tr.list ul.list-stats .fa {
