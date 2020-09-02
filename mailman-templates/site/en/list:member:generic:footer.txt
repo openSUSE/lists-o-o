@@ -2,4 +2,4 @@ _______________________________________________
 $display_name mailing list -- $listname
 To unsubscribe, email ${short_listname}-leave@${domain}
 List Netiquette: https://en.opensuse.org/openSUSE:Mailing_list_netiquette
-List Archives: https://${domain}/archives/list/${listname}
+List Archives: https://lists.opensuse.org/archives/list/${listname}
