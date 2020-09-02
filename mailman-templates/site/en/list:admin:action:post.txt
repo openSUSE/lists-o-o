@@ -12,4 +12,4 @@ $reasons
 At your convenience, visit your dashboard to approve or deny the
 request:
 
-https://lists.opensuse.org/admin/lists/$list_id/held_messages
+https://lists.opensuse.org/manage/lists/$list_id/held_messages
