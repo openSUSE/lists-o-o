@@ -222,7 +222,7 @@ nav {
 .view-thread .unread {
   border-left-color: rgb(var(--hyperkitty-selection-bg))!important;
 }
-//=== Main section with the whole thread ==/ .email-header .messagelink {
+.email-header .messagelink {
   color: rgb(167, 169, 172);
 }
 .email-header .messagelink a {
@@ -275,16 +275,15 @@ nav {
 #thread-overview-info .list-name a {
   color: rgb(var(--hyperkitty-app-fg));
 }
-//=== Tags #tag-title {
+#tag-title {
   color: rgba(var(--hyperkitty-app-fg), 0.5);
 }
 #tags {
   color: rgba(var(--hyperkitty-app-fg), 0.75);
 }
-//=== Participants ==/ #participants {
+#participants {
   color: rgba(var(--hyperkitty-app-fg), 0.75);
 }
-/* Inline quotes */
 .quoted-switch a {
   background-color: var(--hyperkitty-blue-hl);
   border: 0;
