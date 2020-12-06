@@ -195,8 +195,8 @@ nav {
 .btn-expander {
   background: #efefef;
 }
-//=== search result thread list ==/ .search-results .list-name {
-  color: black;
+.search-results .list-name {
+  color: rgb(var(--hyperkitty-app-fg));
 }
 .overview .list-group .fa-envelope {
   color: #08c;
