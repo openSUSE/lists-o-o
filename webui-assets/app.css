@@ -181,11 +181,11 @@ nav {
 #thread-list .thread-list-header .list-name {
   color: rgb(var(--hyperkitty-app-fg));
 }
-.btn-outline-primary {
+.btn-outline-primary, .btn-outline-secondary {
   border-color: rgb(var(--hyperkitty-app-fg));
   color: rgb(var(--hyperkitty-app-fg));
 }
-.btn-outline-primary:hover ,.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle {
+.btn-outline-primary:hover ,.btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active, .show > .btn-outline-primary.dropdown-toggle, .btn-outline-secondary:hover ,.btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active, .show > .btn-outline-secondary.dropdown-toggle {
   background-color: rgb(var(--hyperkitty-app-fg));
   color: rgb(var(--hyperkitty-app-bg));
 }
@@ -318,3 +318,6 @@ nav {
   background: $rowBorderColor;
 }
 
+.socialaccount_ballot .login-or, form.login {
+  display: none;
+}
