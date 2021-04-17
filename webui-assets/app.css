@@ -211,13 +211,13 @@ nav {
   color: rgba(var(--hyperkitty-app-fg), 0.75);
 }
 .overview .stats .caption {
-  color: rgba(var(--hyperkitty-app-fg), 0.5);
+  color: rgba(var(--hyperkitty-app-fg), 0.7);
 }
 .thread-header .thread-older, .thread-header .thread-newer {
-  color: rgba(var(--hyperkitty-app-fg), 0.5);
+  color: rgba(var(--hyperkitty-app-fg), 0.7);
 }
 .thread-header .thread-titles a {
-  color: rgba(var(--hyperkitty-app-fg), 0.5);
+  color: rgba(var(--hyperkitty-app-fg), 0.7);
 }
 .view-thread .unread {
   border-left-color: rgb(var(--hyperkitty-selection-bg))!important;
@@ -232,10 +232,10 @@ nav {
   color: #08c;
 }
 .email-author .rank{
-  color: rgba(var(--hyperkitty-app-fg), 0.5);
+  color: rgba(var(--hyperkitty-app-fg), 0.7);
 }
 .email-date .time span {
-  color: rgba(var(--hyperkitty-app-fg), 0.5);
+  color: rgba(var(--hyperkitty-app-fg), 0.7);
   border-color: var(--hyperkitty-border);
 }
 .email-info .messagelink, .email-info .messagelink a {
@@ -276,7 +276,7 @@ nav {
   color: rgb(var(--hyperkitty-app-fg));
 }
 #tag-title {
-  color: rgba(var(--hyperkitty-app-fg), 0.5);
+  color: rgba(var(--hyperkitty-app-fg), 0.7);
 }
 #tags {
   color: rgba(var(--hyperkitty-app-fg), 0.75);
@@ -313,9 +313,6 @@ nav {
   border-color: var(--hyperkitty-border);
   border-radius: 0.25rem 0.25rem 0 0;
   background-color: var(--hyperkitty-navbar-bg);
-}
-.user-profile tr.list-address {
-  background: $rowBorderColor;
 }
 
 .socialaccount_ballot .login-or, form.login {
