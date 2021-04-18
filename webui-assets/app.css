@@ -132,6 +132,9 @@ nav {
 .chart-data .bars rect {
   fill: rgb(var(--hyperkitty-selection-bg));
 }
+.all-lists .table th {
+  border-top: none!important;
+}
 .all-lists .header {
   border-color: var(--hyperkitty-border);
 }
