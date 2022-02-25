@@ -293,23 +293,23 @@ nav {
   border-radius: 0.25rem;
   color: rgb(var(--hyperkitty-selection-fg));
 }
-.quoted-text {
+.email-body .quoted-text {
   border-left-color: var(--hyperkitty-blue-hl);
   background: var(--hyperkitty-blue-bg);
 }
-.quoted-text-1 {
+.email-body .quoted-text .quoted-text {
   border-left-color: var(--hyperkitty-green-hl);
   background: var(--hyperkitty-green-bg);
 }
-.quoted-text-2 {
+.email-body .quoted-text .quoted-text .quoted-text {
   border-left-color: var(--hyperkitty-yellow-hl);
   background: var(--hyperkitty-yellow-bg);
 }
-.quoted-text-3 {
+.email-body .quoted-text .quoted-text .quoted-text .quoted-text {
   border-left-color: var(--hyperkitty-red-hl);
   background: var(--hyperkitty-red-bg);
 }
-.quoted-text, .quoted-text-1, .quoted-text-2, .quoted-text-3 {
+.email-body .quoted-text {
   border-radius: 0.25rem;
 }
 #unreadnavbar>div {
